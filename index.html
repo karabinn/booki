@@ -34,40 +34,32 @@
                 <h3>Trouvez votre hébergement pour des vacances de rêve</h3>
                 <p>En plein centre ville ou en pleine nature</p>
             </div>
-            <div class="search-bar">
+            <form class="search-bar">
                     <i class="fa-solid fa-location-dot"></i>
                     <input type="text" placeholder="Entrez une ville" class="search-input">
-                    <button class="search-btn">Rechercher</button>
-            </div>
+                    <input type="submit" class="search-btn" value="Rechercher">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+            </form>
             <div class="filters">
-                <p>Filtres
+                <span>Filtres</span>
+                <div class="filters-btn">
                 <button class="filter-btn"><i class="fa-solid fa-money-bill-wave"></i> <b> Économique</b></button>
                 <button class="filter-btn"><i class="fa-solid fa-person"></i><b> Familial</b></button>
                 <button class="filter-btn"><i class="fa-solid fa-heart"></i><b> Romantique</b></button>
                 <button class="filter-btn"><i class="fa-solid fa-fire"></i><b> Nos pépites</b></button>
-                <br>
+                </div>
+            </div>
                 <div class="infos"><i class="fa-solid fa-info"></i>
                     Plus de 500 logements sont disponibles dans cette ville</div>
-                </p>
-            </div>
+          
             
-
-
-
-
             <!--Partie Hébergements et Populaires-->
             <div class="hebergements-and-populaires">
                 <!--Hebergements-->
                 <section class="hebergements">
-                   
-
-                   
                     <div class="hebergements-title">
                         <h2 class="section-title" id="hebergements">Hébergements à Marseille</h2>
                     </div>
-
-                    
-
                     <div class="hebergements-cards">
                         <a href="#">
                             <article class="card">
@@ -150,7 +142,7 @@
                                 <img src="./images/hebergements/marcus-loke.jpg" alt="Image de la chambre d'hôtel montrant deux lits">
                                 <div class="card-content">
                                     <div class="card-txt">
-                                        <h3 class="card-title">Hôtel la Canebière</h3>
+                                        <h3 class="card-title">Auberge la Canebière</h3>
                                         <p class="card-subtitle">Nuit à partir de 25<span class="euro">€</span></p>
                                     </div>
                                     <div class="card-rating">
@@ -285,8 +277,8 @@
                 </div>
             </section>
         </main>
-
-        <footer class="footer">
+        <!--Section footer-->
+        <footer>
                 <div class="footer-section">
                     <h3>À propos</h3>
                     <ul>
@@ -312,5 +304,4 @@
          </footer>
     </div>
 </body>
-
 </html>
